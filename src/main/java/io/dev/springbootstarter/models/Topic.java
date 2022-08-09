@@ -1,4 +1,4 @@
-package io.dev.springbootstarter.topics;
+package io.dev.springbootstarter.models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

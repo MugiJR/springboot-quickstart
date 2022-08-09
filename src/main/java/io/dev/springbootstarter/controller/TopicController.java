@@ -1,5 +1,7 @@
-package io.dev.springbootstarter.topics;
+package io.dev.springbootstarter.controller;
 
+import io.dev.springbootstarter.models.Topic;
+import io.dev.springbootstarter.services.TopicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
