@@ -26,9 +26,9 @@ public class TopicController {
         topicService.addTopic(topic);
     }
 
-    @PutMapping("/topics/{id}")
-    public void updateTopio(@RequestBody Topic topic, @PathVariable String id) {
-        topicService.updateTopic(id, topic);
+    @PutMapping("/topics")
+    public void updateTopic(@RequestBody Topic topic) {
+        topicService.updateTopic(topic);
     }
 
     @DeleteMapping("/topics/{id}")
